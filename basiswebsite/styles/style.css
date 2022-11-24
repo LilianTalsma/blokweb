@@ -1,0 +1,65 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+button, summary {
+	cursor: pointer;
+}
+
+
+
+ 
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+
+	--bg-button:#067A46;
+	--color-button:#fff;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+
+img{
+	max-width: 100%;
+}
+
+main section:nth-of-type(1){
+	background-image:url('../images/img-bg-1.webp');
+	min-height: 26em;
+	background-size: cover;
+	background-position: center center;
+	text-align:center;
+}
+
+main section:nth-of-type(1) h2 span {
+ display: block;
+}
+
+main section:nth-of-type(1) a {
+	
+	text-decoration: none;
+	background-color: var(--bg-button);
+	color: var(--color-button);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 25em;
+    min-width: 8em;
+    padding: .8em;
+}
