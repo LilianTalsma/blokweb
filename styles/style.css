@@ -1,3 +1,16 @@
+@font-face{
+	font-family: 'SourceSansProRegular';
+	src:url(../fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'SourceSansProBolt';
+	src:url(../fonts/SourceSansPro-SemiBold.ttf);
+}
+
+
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -8,6 +21,16 @@
 button, summary {
 	cursor: pointer;
 }
+
+.loesoe {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
 
 
 
@@ -23,6 +46,8 @@ button, summary {
 
 	--bg-button:#067A46;
 	--color-button:#fff;
+
+	--primary-font-family: 'SourceSansProRegular';
 }
 
 
@@ -36,6 +61,8 @@ button, summary {
 /* jouw code */
 
 
+
+
 img{
 	max-width: 100%;
 }
@@ -46,6 +73,7 @@ main section:nth-of-type(1){
 	background-size: cover;
 	background-position: center center;
 	text-align:center;
+	font-family: var(--primary-font-family);
 }
 
 main section:nth-of-type(1) h2 span {
@@ -57,9 +85,40 @@ main section:nth-of-type(1) a {
 	text-decoration: none;
 	background-color: var(--bg-button);
 	color: var(--color-button);
+	font-family: var(--primary-font-family);
     margin-right: auto;
     margin-left: auto;
     max-width: 25em;
     min-width: 8em;
     padding: .8em;
+}
+
+section:nth-of-type(2) ul {
+	display:flex;
+	flex-direction: row;
+	overflow-x:scroll;
+	gap:2em;
+	list-style-type:none;
+	scroll-snap-type: x mandatory;
+	
+}
+
+section:nth-of-type(2) ul li{
+	min-width:25em;
+	scroll-snap-align: center;
+	font-family: var(--primary-font-family);
+
+}
+
+section:nth-of-type(2) ul img{
+	width:25em;
+	height:30em;
+}
+
+section:nth-of-type(2) ul li h4{
+	text-align: center;
+}
+
+section:nth-of-type(2) ul li p{
+	text-align: center;
 }
