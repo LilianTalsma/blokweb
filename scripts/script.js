@@ -12,3 +12,5 @@ function toggleMenu(){
     deNav.classList.toggle('open');
     deWaas.classList.toggle('open');
   }
+
+
