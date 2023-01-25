@@ -39,12 +39,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.hellofresh.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  home pagina
+  <img src="readme-images/longsspagina1.png" width="375px" alt="home pagina">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Zo werkt het 
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="pagina die verteld hoe hellofresh te werk gaat">
  
 </details>
 
@@ -57,30 +58,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  -Sommige buttons reageerde niet op hover hier door is het voor slecht ziende moeilijk te zien.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-  
+  Hier korte omschrijving 
+  De site functioneerde prima met de screenreader alle kopjes en afbeeldingen werden goed opgepakt
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de tab knop was het gemakkelijk om door de pagina heen te scrollen.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Buttons waren soms wat klein voor een hand met beperking
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Hier een omschrijving van hoe het opgelost kan worden.
+  Buttons wat groter maken zodat het makkelijk aanklikbaar is
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het contrast op de paginas was groot, Bij de buttons is er over nagedacht door de button zelf donker te maken en de tekst erin wit zodat de tekst duidelijk zichtbaar blijft.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
 </details>
 
@@ -112,15 +117,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Op dit moment had ik alleen nog de html geschreven voor de eerste pagina.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  |Lilian      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | Waarschijnlijk over voortgang met css    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -128,10 +133,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Beginnen aan de css.
+  -Uitkiezen welke 2de pagina ik neem.
+
+
 
 </details>
 
@@ -145,26 +150,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Hier was ik begonnen aan een stukje css maar er was nog steeds niet veel voortgang.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Lilian    | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  |Over het hamburger menu.
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Voor de werkgroep verder komen dan nu.
+  -Beginnen aan het hamburger menu.
+  -beginnen aan code van 2de pagina.
 
 </details>
 
@@ -179,29 +182,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  -Er is niet heel veel verbeterd ten opzichte van week 1.
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  screenreader pakt afbeeldingen en koppen goed op.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+site is makkelijk te bedienen met muis en tab knop.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
+Hier is ook niet zoveel veranderd ten opzicht van week 1.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Ik heb de kleuren en de hover state van een van de buttons duidelijker gemaakt omdat deze op de orginele site dat niet heeft. Het is dus handig voor mensen met een visuele beperking dat ze kunnen zien wanneer zij met hun muis op de button zitten.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 </details>
 
@@ -216,6 +220,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De css van de eerste en 2de pagina staat er ongeveer in. Het hamburger menu werkt maar voorderest is het menu en de site zelf nog niet responsive.
 
 
   ### Agenda voor meeting
@@ -231,10 +236,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Site responsive maken.
 
 </details>
 
@@ -248,19 +250,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/pagina1eind.png" width="375px" alt="uitomst opdracht 1">
+    <img src="readme-images/pagina2eind.png" width="375px" alt="uitomst opdracht 1">
+      <img src="readme-images/hamburgermenueind.png" width="375px" alt="uitomst opdracht 1">
+
+    
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  Ik heb veel geleerd van dit vak vooral hoe je iets echt responsive maakt als je van smallscreen naar groot scherm gaat.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/pagina2eind" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
+  De footer uitklappen is mij helaas niet gelukt maar voor de rest allemaal wel :)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/footer" width="375px" alt="bummer">
 </details>
 
 
@@ -274,8 +282,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Codepen.io - vrijwel elke die op dlo staat is van pas gekomen.
+  2. W3schools - Uitleg flexbox
+  3. Css-tricks - Grid propertys uitleg
 
 </details>

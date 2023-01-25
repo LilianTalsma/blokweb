@@ -1,0 +1,155 @@
+/****************/
+/* MAIN SECTION*/
+/****************/
+
+main section h2 {
+	font-size: x-large;
+	font-family: var(--primary-font-family);
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+main section h4 {
+	font-family: var(--primary-font-family);
+	margin-left: 1em;
+}
+
+main section p {
+	font-family: var(--primary-font-family);
+	margin-left: 1em;
+
+}
+
+
+main a {
+
+	text-decoration: none;
+	background-color: var(--bg-button);
+	color: var(--color-button);
+	font-family: var(--primary-font-family);
+	display: flex;
+	justify-content: center;
+	border-radius: .3em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+	max-width: 10em;
+	min-width: 8em;
+	padding: .8em;
+}
+
+main section a:hover {
+	background-color: var(--button-hover);
+}
+
+/****************/
+/* SECTION 1 - Zo werkt het*/
+/****************/
+
+main section:nth-of-type(1) ol {
+	border-bottom: 1px solid var(--color-border);
+	list-style: none;
+}
+
+main section:nth-of-type(1) ol li {
+	border-top: 1px solid var(--color-border);
+
+}
+
+
+/****************/
+/* SECTION 2 - 8 redenen voor hello fresh*/
+/****************/
+
+
+main section:nth-of-type(2) {
+	background-color: var(--color-background-section);
+	padding: 2em;
+
+}
+
+main section:nth-of-type(2) img {
+	margin: .5em;
+
+}
+
+main section:nth-of-type(2) ul {
+	list-style: none;
+}
+
+main section:nth-of-type(2) h2 {
+	margin-bottom: 2em;
+
+}
+
+main section:nth-of-type(2) h3 {
+	font-family: var(--bolt-font-family);
+	margin-left: 1em;
+}
+
+main section:nth-of-type(2) a {
+
+	text-decoration: none;
+	background-color: var(--bg-button);
+	color: var(--color-button);
+	font-family: var(--primary-font-family);
+	display: flex;
+	justify-content: center;
+	border-radius: .3em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+	max-width: 20em;
+	min-width: 8em;
+	padding: .8em;
+}
+
+@media (min-width:45em) {
+
+/* MEDIA SECTION 1 */
+
+	main section:nth-of-type(1) ol li {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 2em;
+		margin: 2em
+	}
+
+
+	main section:nth-of-type(1) ol img {
+
+
+
+		justify-self: center;
+		align-self: center;
+
+		width: 90%;
+		grid-column-start: 2;
+		grid-column-end: 3;
+
+		grid-row-start: 1;
+		grid-row-end: 4;
+	}
+
+	main section:nth-of-type(1) li:nth-of-type(2) img {
+
+		justify-self: center;
+		align-self: center;
+
+		width: 90%;
+		grid-column-start: 1;
+		grid-column-end: 2;
+
+	}
+
+	/* MEDIA SECTION 2 */
+
+	main section:nth-of-type(2) ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 2em;
+	}
+
+}
